@@ -61,7 +61,7 @@ const Contact = () => {
           transition={{ duration: 0.8, delay: 0.2, ease: 'easeOut' }}
         >
           <img
-            src="./src/images/smilingchef.png" 
+            src="../src/assets/images/smilingchef.png" 
             alt="Smiling Chef"
             className="chef-image"
             onError={(e) => { e.target.onerror = null; e.target.src = "https://placehold.co/400x500/E0F2F7/2C3E50?text=Chef+Image+Unavailable"; }}

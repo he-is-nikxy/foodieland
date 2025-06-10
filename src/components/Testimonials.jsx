@@ -7,28 +7,28 @@ function Testimonials() {
   const posts = [
     {
       id: 1,
-      image: './src/images/salad.webp',
+      image: '../src/assets/images/salad.webp',
       description: 'The vegetables dishes need to have certain vitamins to these people',
       likes: 'Craig_love and 44,686',
       date: 'September 18',
     },
     {
       id: 2,
-      image: './src/images/icecream.webp',
+      image: '../src/assets/images/icecream.webp',
       description: 'Sweet food can bring someone into happiness as long as they don\'t eat too much',
       likes: 'Craig_love and 44,686',
       date: 'September 18',
     },
     {
       id: 3,
-      image: './src/images/tacos.webp',
+      image: '../src/assets/images/tacos.webp',
       description: 'What are you doing before start cooking? prepare the tools or ingredients?',
       likes: 'Craig_love and 44,686',
       date: 'September 18',
     },
     {
       id: 4,
-      image: './src/images/burger.jpeg',
+      image: '../src/assets/images/burger.jpeg',
       description: 'Stew never be wrong, it\'s suitable for you who want romantic dinner',
       likes: 'Craig_love and 44,686',
       date: 'September 18',

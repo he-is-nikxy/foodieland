@@ -5,18 +5,18 @@ import { motion } from 'framer-motion';
 import { FaClock, FaUtensils, FaSearch } from 'react-icons/fa';
 
 const dishes = [
-  { name: 'Pizza', img: './src/images/pizza.jpeg', desc: 'Classic Italian delight with cheese & herbs.', time: '20', type: 'Snack' },
-  { name: 'Burger', img: './src/images/burger.jpeg', desc: 'Juicy beef patty with fresh veggies.', time: '15', type: 'Snack' },
-  { name: 'Noodles', img: './src/images/noodles.webp', desc: 'Stir-fried noodles with veggies and sauce.', time: '10', type: 'Noodles' },
-  { name: 'Salad', img: './src/images/salad.webp', desc: 'Healthy mix of greens & fruits.', time: '5', type: 'Healthy' },
-  { name: 'Pasta', img: './src/images/pasta.jpeg', desc: 'Creamy Alfredo pasta with mushrooms.', time: '18', type: 'Snack' },
-  { name: 'Sushi', img: './src/images/sushi.webp', desc: 'Japanese rolls with rice & seafood.', time: '30', type: 'Healthy' },
-  { name: 'Sandwich', img: './src/images/sandwich.jpeg', desc: 'Grilled sandwich with veggies & cheese.', time: '10', type: 'Breakfast' },
-  { name: 'Fries', img: './src/images/fries.jpeg', desc: 'Crispy potato fries with seasoning.', time: '12', type: 'Snack' },
-  { name: 'Tacos', img: './src/images/tacos.webp', desc: 'Mexican delight with spicy fillings.', time: '25', type: 'Snack' },
-  { name: 'Steak', img: './src/images/steak.jpeg', desc: 'Grilled steak with herbs.', time: '35', type: 'Main Course' },
-  { name: 'Dosa', img: './src/images/dosa.webp', desc: 'South Indian rice crepe.', time: '20', type: 'Breakfast' },
-  { name: 'Ice Cream', img: './src/images/icecream.webp', desc: 'Sweet frozen dessert in various flavors.', time: '0', type: 'Sweet' },
+  { name: 'Pizza', img: '../src/assets/images/pizza.jpeg', desc: 'Classic Italian delight with cheese & herbs.', time: '20', type: 'Snack' },
+  { name: 'Burger', img: '../src/assets/images/burger.jpeg', desc: 'Juicy beef patty with fresh veggies.', time: '15', type: 'Snack' },
+  { name: 'Noodles', img: '../src/assets/images/noodles.webp', desc: 'Stir-fried noodles with veggies and sauce.', time: '10', type: 'Noodles' },
+  { name: 'Salad', img: '../src/assets/images/salad.webp', desc: 'Healthy mix of greens & fruits.', time: '5', type: 'Healthy' },
+  { name: 'Pasta', img: '../src/assets/images/pasta.jpeg', desc: 'Creamy Alfredo pasta with mushrooms.', time: '18', type: 'Snack' },
+  { name: 'Sushi', img: '../src/assets/images/sushi.webp', desc: 'Japanese rolls with rice & seafood.', time: '30', type: 'Healthy' },
+  { name: 'Sandwich', img: '../src/assets/images/sandwich.jpeg', desc: 'Grilled sandwich with veggies & cheese.', time: '10', type: 'Breakfast' },
+  { name: 'Fries', img: '../src/assets/images/fries.jpeg', desc: 'Crispy potato fries with seasoning.', time: '12', type: 'Snack' },
+  { name: 'Tacos', img: '../src/assets/images/tacos.webp', desc: 'Mexican delight with spicy fillings.', time: '25', type: 'Snack' },
+  { name: 'Steak', img: '../src/assets/images/steak.jpeg', desc: 'Grilled steak with herbs.', time: '35', type: 'Main Course' },
+  { name: 'Dosa', img: '../src/assets/images/dosa.webp', desc: 'South Indian rice crepe.', time: '20', type: 'Breakfast' },
+  { name: 'Ice Cream', img: '../src/assets/images/icecream.webp', desc: 'Sweet frozen dessert in various flavors.', time: '0', type: 'Sweet' },
 ];
 
 const FoodRecipes = () => {

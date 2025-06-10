@@ -4,7 +4,7 @@ const InstagramPost = ({ post }) => {
     return (
         <div className="instagram-post">
             <div className="post-header">
-                <img src="./src/images/about.png" alt="Profile" className="profile-pic" />
+                <img src="../src/assets/images/about.png" alt="Profile" className="profile-pic" />
                 <div className="profile-info">
                     <span className="username">Foodieland.</span>
                     <span className="location">Tokyo, Japan</span>

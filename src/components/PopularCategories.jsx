@@ -4,18 +4,18 @@ import { motion } from 'framer-motion';
 import './PopularCategories.css';
 
 const categories = [
-  { name: 'Breakfast', img: './src/images/dosa.webp' },
-  { name: 'Vegan', img: './src/images/salad.webp' },
-  { name: 'Meat', img: './src/images/steak.jpeg' },
-  { name: 'Dessert', img: './src/images/icecream.webp' },
-  { name: 'Lunch', img: './src/images/dosa.webp' },
-  { name: 'Chocolate', img: './src/images/icecream.webp' },
-  { name: 'Pizza', img: './src/images/pizza.jpeg' },
-  { name: 'Burger', img: './src/images/burger.jpeg' },
-  { name: 'Noodles', img: './src/images/noodles.webp' },
-  { name: 'Salad', img: './src/images/salad.webp' },
-  { name: 'Pasta', img: './src/images/pasta.jpeg' },
-  { name: 'Sushi', img: './src/images/sushi.webp' }
+  { name: 'Breakfast', img: '../src/assets/images/dosa.webp' },
+  { name: 'Vegan', img: '../src/assets/images/salad.webp' },
+  { name: 'Meat', img: '../src/assets/images/steak.jpeg' },
+  { name: 'Dessert', img: '../src/assets/images/icecream.webp' },
+  { name: 'Lunch', img: '../src/assets/images/dosa.webp' },
+  { name: 'Chocolate', img: '../src/assets/images/icecream.webp' },
+  { name: 'Pizza', img: '../src/assets/images/pizza.jpeg' },
+  { name: 'Burger', img: '../src/assets/images/burger.jpeg' },
+  { name: 'Noodles', img: '../src/assets/images/noodles.webp' },
+  { name: 'Salad', img: '../src/assets/images/salad.webp' },
+  { name: 'Pasta', img: '../src/assets/images/pasta.jpeg' },
+  { name: 'Sushi', img: '../src/assets/images/sushi.webp' }
 ];
 
 const PopularCategories = () => {

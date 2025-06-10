@@ -85,7 +85,7 @@ const HeroSection = () => {
                 animate="visible"
                 variants={authorVariants}
               >
-                <img src="./src/images/smilingchef.png" alt="Author Profile" className="author-pic" />
+                <img src="../src/assets/images/smilingchef.png" alt="Author Profile" className="author-pic" />
                 <div className="author-text">
                   <div className="author-name">John Smith</div>
                   <div className="post-date">15 March 2022</div>
@@ -116,7 +116,7 @@ const HeroSection = () => {
               <span>HANDPICKED RECIPES</span>
             </div>
             <img
-              src="./src/images/hero.png"
+              src="../src/assets/images/hero.png"
               alt="Spicy delicious chicken wings"
               className="slide-image"
               onError={(e) => { e.target.onerror = null; e.target.src="https://placehold.co/500x500/E0F2F7/2C3E50?text=Image+Unavailable"; }}

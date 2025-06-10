@@ -14,7 +14,7 @@ const About = () => {
         viewport={{ once: true }}
         transition={{ duration: 0.6 }}
       >
-        <img src="./src/images/about.png" alt="About Foodieland" />
+        <img src="../src/assets/images/about.png" alt="About Foodieland" />
       </motion.div>
       <motion.div 
         className="about-content"

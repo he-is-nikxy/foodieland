@@ -48,8 +48,8 @@ const Footer = () => {
             <input type="email" placeholder="Your email address..." className="email-input" />
             <button className="subscribe-button">Subscribe</button>
           </motion.div>
-          <img src="./src/images/salad.webp" alt="Vegetables" className="newsletter-decoration-left" />
-          <img src="./src/images/tacos.webp" alt="Salad Bowl" className="newsletter-decoration-right" />
+          <img src="../src/assets/images/salad.webp" alt="Vegetables" className="newsletter-decoration-left" />
+          <img src="../src/assets/images/tacos.webp" alt="Salad Bowl" className="newsletter-decoration-right" />
         </div>
       </div>
 
