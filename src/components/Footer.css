@@ -1,0 +1,285 @@
+.footer {
+  background-color: #f7f7f7; 
+  padding-top: 50px;
+  padding-bottom: 30px;
+  width: 100%;
+  box-sizing: border-box; 
+}
+
+/* Newsletter Section Styling */
+.newsletter-section-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 80px; 
+}
+
+.newsletter-section {
+  background-color: #e0f2f7; 
+  border-radius: 20px; 
+  padding: 40px 30px;
+  text-align: center;
+  max-width: 900px; 
+  width: 90%; 
+  position: relative; 
+  overflow: hidden; 
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05); 
+}
+
+.newsletter-title {
+  font-size: 2.5em;
+  font-weight: 700;
+  color: #2c3e50; 
+  margin-bottom: 15px;
+}
+
+.newsletter-subtitle {
+  font-size: 1.1em;
+  color: #555;
+  margin-bottom: 30px;
+  line-height: 1.6;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.newsletter-form {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.email-input {
+  padding: 15px 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1em;
+  width: 300px; 
+  max-width: 100%; 
+  box-sizing: border-box;
+}
+
+.subscribe-button {
+  background-color: #000;
+  color: #fff;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1em;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.subscribe-button:hover {
+  background-color: #333;
+}
+
+.newsletter-decoration-left,
+.newsletter-decoration-right {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1; 
+  pointer-events: none;
+}
+
+.newsletter-decoration-left {
+  left: -5%; 
+  width: 180px; 
+}
+
+.newsletter-decoration-right {
+  right: -5%; 
+  width: 250px; 
+}
+
+/* Main Footer Content Styling */
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; 
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px 40px; 
+  border-bottom: 1px solid #eee;
+}
+
+.footer-left {
+  max-width: 300px;
+}
+
+.footer-logo {
+  font-size: 1.8em;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.footer-description {
+  font-size: 0.95em;
+  color: #666;
+  line-height: 1.5;
+}
+
+.footer-nav {
+  margin-top: 5px;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex; 
+  gap: 30px; 
+}
+
+.footer-links li a {
+  text-decoration: none;
+  color: #555;
+  font-size: 1em;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.footer-links li a:hover {
+  color: #000;
+}
+
+/* Footer Bottom Styling */
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 20px 0;
+}
+
+.copyright {
+  font-size: 0.9em;
+  color: #888;
+}
+
+.copyright a {
+  color: #888;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.copyright a:hover {
+  color: #555;
+}
+
+.social-icons {
+  display: flex;
+  gap: 20px;
+}
+
+.social-icons a {
+  color: #888;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #000;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 900px) {
+  .newsletter-section {
+    padding: 30px 20px;
+  }
+
+  .newsletter-title {
+    font-size: 2em;
+  }
+
+  .newsletter-subtitle {
+    font-size: 1em;
+  }
+
+  .newsletter-decoration-left {
+    left: -10%;
+    width: 150px;
+  }
+
+  .newsletter-decoration-right {
+    right: -10%;
+    width: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .newsletter-section {
+    width: 95%;
+  }
+
+  .newsletter-title {
+    font-size: 1.8em;
+  }
+
+  .email-input {
+    width: 100%; 
+  }
+
+  .newsletter-form {
+    flex-direction: column; 
+    gap: 10px;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+
+  .footer-left {
+    margin-bottom: 30px;
+  }
+
+  .footer-links {
+    flex-wrap: wrap; 
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    padding-top: 15px;
+  }
+
+  .copyright {
+    margin-bottom: 15px;
+  }
+
+  .newsletter-decoration-left,
+  .newsletter-decoration-right {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .newsletter-title {
+    font-size: 1.5em;
+  }
+
+  .newsletter-subtitle {
+    font-size: 0.9em;
+  }
+
+  .footer-logo {
+    font-size: 1.5em;
+  }
+
+  .footer-description {
+    font-size: 0.85em;
+  }
+
+  .footer-links li a {
+    font-size: 0.9em;
+  }
+}
